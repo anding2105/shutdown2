@@ -1,0 +1,5 @@
+    f := shutdown.First()
+    if f == nil {
+        // Already shutting down.
+        return
+    }
